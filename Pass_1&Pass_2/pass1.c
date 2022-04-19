@@ -70,7 +70,7 @@ void main()
   }
   while(strcmp(opcode,"END")!=0);
   length = locctr - start;
-  printf("THE LEGTH OF THE CODE : %04d\n",length);
+  printf("THE LENGTH OF THE CODE : %04d\n",length);
   fprintf(fp5,"%04d",length);
   fclose(fp1);
   fclose(fp2);
